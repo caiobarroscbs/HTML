@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho = introduz algo -->
+        <h1>Estudos do HTML</h1>
+        <h3>Conceitos introdutórios da linguagem</h3>
+        <nav> <!-- Agrupa links de navegação --> 
+            <ol>
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo principal da página -->
+        <section> <!-- Separa tópicos/conteúdos -->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Expedita reprehenderit consequatur beatae? 
+                Cum, ea non. Quod voluptatum dolorum, neque ipsum possimus quos iste praesentium at?</p>
+        </section>
+        <h3>Uso de tabelas</h3>
+        <table border="1" cellpadding="3" style="border-collapse: collapse;">
+            <thead> <!-- Cabeçalho da tabela -->
+                <tr>
+                    <!-- colspan = duração da coluna -->
+                    <th colspan="4">Usuários do sistema</th>
+                </tr>
+                <tr> <!-- Table Row -->
+                    <th>Tipo</th>
+                    <th>Nome</th> <!-- Table Header -->
+                    <th>CPF</th>
+                    <th>Data Nasc.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Funcionário</td> <!-- rowspan = duração da linha -->
+                    <td>Caio Barros</td> <!-- Table Data -->
+                    <td>000.000.000-00</td>
+                    <td>05/01/1997</td>
+                </tr>
+                <tr>
+                    <td>Micheal Jackson</td> <!-- Table Data -->
+                    <td>000.000.000-00</td>
+                    <td>05/01/1997</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Cliente</td> <!-- rowspan = duração da linha -->
+                    <td>Elba Ramalho</td> <!-- Table Data -->
+                    <td>000.000.000-00</td>
+                    <td>05/01/1997</td>
+                </tr>
+                <tr>
+                    <td>Elba Ramalho</td> <!-- Table Data -->
+                    <td>000.000.000-00</td>
+                    <td>05/01/1997</td>
+                </tr>
+            </tbody>
+            <hr>
+            <table border="1" cellpadding="3" style="border-collapse: collapse;">
+                <tr>
+                    <td colspan="2">Celula 1-1</td>
+                    <td>Celula 1-3</td>
+                </tr>
+                <tr>
+                    <td>Celula 2-1</td>
+                    <td>Celula 2-2</td>
+                    <td>Celula 2-3</td>
+                </tr>
+            </table>
+        </table>
+    </section>
+    </main>
+    <hr/><!-- Horizontal Rule -->
+    <footer> <!-- Dá informações sobre autoria/encerra o conteúdo -->
+        ©
+        <script>
+            // Pega as informções de data e informa o ano  
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+
+    </footer>
+
+</body>
+</html>
