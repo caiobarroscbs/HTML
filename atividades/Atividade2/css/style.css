@@ -1,0 +1,53 @@
+body {
+    background-color: #0f637a;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form {
+   text-align: center;
+    
+}
+
+.email {
+    right: 20px;
+}
+.tabelaJava {
+    display: flex;
+    justify-content: center;
+}
+.tabelaEngenharia {
+    display: flex;
+    justify-content: center;
+}
+th {
+    text-align: left;
+}
+
+td {
+    text-align: right;
+}
+
+.java {
+    text-align: center;
+}
+.engenharia {
+    text-align: center;
+}
+
+/*
+responsavel por usuario e senha
+*/
+#email {
+    display: flex;
+
+}
+
+#senha {
+    display: flex;
+}

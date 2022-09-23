@@ -5,26 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <img src="img/soulcode.png" alt=""> <!-- Imagem com o logo -->
-        <h1>Bem vindo! Entre com seu email e senha.</h1> <!-- Título -->
-    </div>
-    <form action="">  <!-- Formulario de login -->
-
-        <div>
-            <label for="campoEmail">Email</label><br> <!-- Campo de texto Email-->
-            <input type="email" name="campoEmail" id="campoEmail" placeholder="usuario@exemplo.com" minlength="8" required>
+        <div class="logo">
+            <img src="img/soulcode.png" alt=""> <!-- Imagem com o logo -->
+            <h1>Bem vindo! Entre com seu email e senha.</h1> <!-- Título -->
         </div>
-        <br>
-        <div>
-            <label for="campoSenha">Senha</label><br> <!-- Campo de texto Senha-->
-            <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" required >
+    <form action="" class="form">  <!-- Formulario de login -->
+
+        <div id="form">
+            <div id="email">
+                <label for="campoEmail">Email</label><br> <!-- Campo de texto Email-->
+                <input type="email" name="campoEmail" id="campoEmail" placeholder="usuario@exemplo.com" minlength="8" required>
+            </div>
+            
+            <div id="senha">
+                <label for="campoSenha">Senha</label><br> <!-- Campo de texto Senha-->
+                <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" required >
+            </div>
+            
         </div>
         
         <hr/> <!-- hr = Espaço com linha -->
-        <button type="submit">Login</button><br> <!-- SUBMETER (SUBMIT) -->
+            <button type="submit">Login</button><br> <!-- SUBMETER (SUBMIT) -->
         <div> <!-- CheckBox -->
             <input id="checkConectado" type="checkbox" name="checkConectado"
             required>
@@ -32,10 +36,10 @@
         </div>
     </form>      
         <br><br><br>
-        <div> <!-- Tabela Java full stack -->
+        <div class="tabelaJava"> <!-- Tabela Java full stack -->
             <table border="1" cellpadding="10" style="border-collapse: collapse;">
                 <thead> <!-- Cabeçalho da tabela -->
-                    <th colspan="2">Desenvolvedor Java Full Stack</th>
+                    <th colspan="2" class="java">Desenvolvedor Java Full Stack</th>
                 </thead>
                     <tbody> <!-- Corpo da Tabela -->
                         <tr>
@@ -70,11 +74,11 @@
             </table>
         </div>
         <br><br>
-        <div> <!-- Tabela Engenharia de dados -->
+        <div class="tabelaEngenharia"> <!-- Tabela Engenharia de dados -->
             <table border="1" cellpadding="10" style="border-collapse: collapse;">
                 <thead> <!-- Cabeçalho da tabela -->
 
-                    <th colspan="2">Engenharia de Dados</th>
+                    <th colspan="2" class="engenharia">Engenharia de Dados</th>
                 </thead>
                     <tbody> <!-- Corpo da Tabela -->
                         <tr>
