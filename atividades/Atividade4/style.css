@@ -1,0 +1,64 @@
+.card1 {
+    width: 300px;
+    margin: auto;
+    background-color: aqua;   
+}
+
+.card1 img {
+    width: 300px;
+}
+
+.card1 h3 {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.card1 p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 15px 20px 15px;
+}
+
+.card2 {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(80, 185, 185);   
+}
+
+.card2 img {
+    width: 300px;
+}
+
+.card2 h3 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.card2 p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 15px 20px 15px;
+}
+
+.card3 {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(29, 133, 133);   
+}
+
+.card3 img {
+    width: 300px;
+}
+
+.card3 h3 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.card3 p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 10px 20px 10px;
+}
