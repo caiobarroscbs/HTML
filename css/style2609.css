@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.box-1 {
+    background-color: cadetblue;
+}
+.box-2 {
+    background-color: chocolate;
+}
+.box-3 {
+    background-color: tomato;
+}
+.box-4 {
+    background-color: steelblue;
+}
+
+.container-flex {
+    background-color: silver;
+    display: flex; /* Ativa o flexbox */
+    flex-direction: column; /* Distribuição vert(column)/hor(row) */
+    flex-wrap: wrap; /* Fixa o tamanho das div / Quebra 'linha' quando não tem espaço */
+
+    /* Cuida dos elementos no eixo main/principal */
+    /* center, space-around, space-between, space-evenly */
+    justify-content: center;
+    /* Cuida dos elementos no eixo cross/cruzado */
+    /* stretch, center, flex-start, flex-end */
+    align-items: center;
+
+    /* Cuida do "espaço extra" do container */
+    align-content: center;
+    height: 350px;
+    gap: 16px;
+}
+
+/* .container-flex div */
+.box-1, .box-2, .box-3, .box-4 {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.box-1 {
+    background-color: cadetblue;
+    align-self: flex-end;
+    order: 1;
+}
+.box-2 {
+    background-color: chocolate;
+    height: 200xp;
+}
+.box-3 {
+    background-color: tomato;
+    align-self: flex-start;
+}
+.box-4 {
+    background-color: steelblue;
+
+}
+
+.box-5 {
+    background-color: brown;
+    flex: 1;
+}
+
+.box-6 {
+    background-color: teal;
+    flex: 2;
+}
+
+.box-7 {
+    background-color: yellow;
+    width: 400px;
+}
+
+.container-flex-2 {
+    display: flex;
+    background-color: orange;
+    height: 200px;
+    flex-wrap: wrap;
+}
